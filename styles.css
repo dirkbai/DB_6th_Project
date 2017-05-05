@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #111;
+  background: url('svgs/background.svg') #edeff0;
+}
+
+#container {
+  max-width: 960px;
+  background: #fff;
+  margin: 0 auto;
+}
+
+p {
+  max-width: 350px;
+  margin: 35px auto 0;
+  line-height: 2em;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #39add1;
+  font-weight: 700;
+  }
+  a:hover {
+    color: #111;
+  }
+
+  .st0{fill:#BA8058;}
+  .st1{fill:#EAAA7F;}
+  .st2{fill:#F4C6A6;}
+
+header {
+  padding-top: 10px;
+}
+  header nav {
+    padding-bottom: 50px;
+    text-align: left;
+  }
+  header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  header nav ul li a svg {
+    height: 13px;
+  }
+
+  header nav ul li a svg .st0{
+      fill: #39add1;
+}
+
+header nav ul li a svg .st0:hover{
+    fill: #000;
+}
+
+
+
+  header h1 {
+    line-height: 1em;
+  }
+
+main {
+  padding-top: 50px;
+}
+  main h2 {
+  font-size: 28px;
+}
+  main ul {
+    padding: 0;
+  }
+    main li {
+      display: inline-block;
+      color: #ba8058;
+      margin-right: 20px;
+    }
+      main li img {
+        height: 170px;
+        margin-bottom: 15px;
+      }
+      main li span {
+        margin-left: -40px;
+      }
+      main li:last-child {
+        margin-right: 0;
+      }
+
+.Logo-svg{
+    max-width: 140px;
+  display: inline-block;
+}
+
+.st1{
+  opacity: 0;
+}
+
+#Logo_Text{
+  color: #EAAA7F;
+  margin-bottom: 2em;
+}
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  color: #ba8058;
+}
+
+@media (min-width: 425px) {
+
+  .st1{
+    opacity: 1;
+  }
+
+  #Logo_Text{
+    display: none;
+  }
+
+}
