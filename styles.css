@@ -33,6 +33,13 @@ a {
   .st0{fill:#BA8058;}
   .st1{fill:#EAAA7F;}
   .st2{fill:#F4C6A6;}
+  .st3{fill:#EAAA7F;}
+  .eyes_nose{fill:#000;}
+  .blue_coat{fill:#336699;}
+  .green_coat{fill:#006666;}
+  .purple_coat{fill:#660066;}
+  .maroon_coat{fill:#800000;}
+
 
 header {
   padding-top: 10px;
@@ -78,7 +85,7 @@ main {
       color: #ba8058;
       margin-right: 20px;
     }
-      main li img {
+      main li svg {
         height: 170px;
         margin-bottom: 15px;
       }
