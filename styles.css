@@ -1,16 +1,18 @@
 
 /*----------- Kay Frames ----------*/
 
-@keyframes grow-icon {
+@keyframes fill-icon {
   0%{
-    transform: scale(1);
+    fill: #bbb;
+    color: #bbb;
   }
   50%{
-    transform: scale(1.15);
-    fill: #444;
+    fill: #888;
+    color: #888;
   }
   100%{
-    transform: scale(1);
+    fill: #444;
+    color: #444;
   }
 }
 
@@ -44,9 +46,6 @@ a {
   color: #39add1;
   font-weight: 700;
   }
-  a:hover {
-    color: #444;
-  }
 
   .st0{fill:#BA8058;}
   .st1{fill:#EAAA7F;}
@@ -76,16 +75,16 @@ header {
     height: 13px;
   }
 
-  header nav ul li a svg .st0{
-      fill: #39add1;
-}
-
-.nav_icon:hover{
-    animation: grow-icon .5s;
-}
-
-header nav ul li a svg .st0:hover{
+  header nav ul li a:hover,
+  header nav ul li a:hover .st0 {
+      color: #444;
       fill: #444;
+      animation: fill-icon .6s;
+  }
+
+
+  header nav ul li a svg .st0{
+    fill: #39add1;
 }
 
 
